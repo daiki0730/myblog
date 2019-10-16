@@ -10,7 +10,6 @@ class PostsController extends Controller
     //
     public function index() {
       $posts = Post::latest()->get();
-      return view('posts.index');
-      dd($posts->toArray()); // dump die
+      return view('posts.index')->with('posts', $posts);
     }
 }
