@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
   <meta charset="utf-8">
-  <title>Blog Posts</title>
+  <title>{{ $post->title }}</title>
   <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
