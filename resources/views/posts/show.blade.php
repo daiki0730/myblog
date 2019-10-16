@@ -7,14 +7,8 @@
 </head>
 <body>
   <div class="container">
-    <h1>Blog Posts</h1>
-    <ul>
-      @forelse ($posts as $post)
-      <li><a href="">{{ $post->title }}</a></li>
-      @empty
-      <li>No posts yet</li>
-      @endforelse
-    </ul>
+    <h1>{{ $post->title }}</h1>
+    <p>{!! nl2br(e($post->body)) !!}</p>
   </div>
 </body>
 </html>
