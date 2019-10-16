@@ -13,6 +13,7 @@ class PostsController extends Controller
       return view('posts.index')->with('posts', $posts);
     }
 
-    public function show() {
+    public function show($id) {
+      $post = Post::findOrFail($id);
     }
 }
