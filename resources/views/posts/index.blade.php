@@ -8,9 +8,11 @@
   <div class="container">
     <h1>Blog Posts</h1>
     <ul>
-      @foreach ($posts as $post)
+      @forelse ($posts as $post)
       <li><a href="">{{ $post->title }}</a></li>
-      @endforeach
+      @empty
+      <li>No posts yet</li>
+      @endforelse
     </ul>
   </div>
 </body>
