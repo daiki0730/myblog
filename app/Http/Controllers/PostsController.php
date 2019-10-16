@@ -12,4 +12,7 @@ class PostsController extends Controller
       $posts = Post::latest()->get();
       return view('posts.index')->with('posts', $posts);
     }
+
+    public function show() {
+    }
 }
