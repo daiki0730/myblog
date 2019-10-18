@@ -16,8 +16,9 @@ PHPで作るとどのような記述になるのだろうと<br>
 [<img width="1440" alt="スクリーンショット 2019-10-18 17 54 59" src="https://user-images.githubusercontent.com/46291510/67080589-82b67d00-f1d0-11e9-8130-5b1b77fad89e.png">
 ](url)<br>
 ***
-### 投稿画面
-![result](https://i.gyazo.com/ece0dbf23d28de57400572846187a2e6.gif)<br>
+### 新規投稿画面
+src="https://user-images.githubusercontent.com/46291510/67080782-e2148d00-f1d0-11e9-80a4-128c63dc991d.png">
+<br>
 ***
 ### 記事詳細画面
 ![result](https://i.gyazo.com/da560e906b491d952e2985a36ffbe52e.gif)<br>
