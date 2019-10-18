@@ -7,7 +7,7 @@ use App\Post;
 
 class PostsController extends Controller
 {
-    //
+
     public function index() {
       $posts = Post::latest()->get();
       return view('posts.index')->with('posts', $posts);
@@ -31,6 +31,10 @@ class PostsController extends Controller
       $post->body = $request->body;
       $post->save();
       return redirect('/');
+    }
+
+    public function edit(Post $post) {
+      return view('posts.edit')->with('post', $post);
     }
 
 }
