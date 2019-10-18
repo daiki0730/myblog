@@ -15,24 +15,29 @@ PHPで作るとどのような記述になるのだろうと<br>
 ### トップページ(記事一覧)
 <img width="1440" alt="スクリーンショット 2019-10-18 17 54 59" src="https://user-images.githubusercontent.com/46291510/67080589-82b67d00-f1d0-11e9-8130-5b1b77fad89e.png">
 <br>
+
 ***
 
 ### 新規投稿
 <img width="1440" alt="スクリーンショット 2019-10-18 17 58 13" src="https://user-images.githubusercontent.com/46291510/67080782-e2148d00-f1d0-11e9-80a4-128c63dc991d.png"><br>
+
 ***
 
 ### 記事編集
 <img width="1434" alt="スクリーンショット 2019-10-18 18 02 33" src="https://user-images.githubusercontent.com/46291510/67081090-7bdc3a00-f1d1-11e9-8fc1-b483f01c7b5d.png">
 <br>
+
 ***
 
 ### 記事詳細
 <img width="1440" alt="スクリーンショット 2019-10-18 18 01 06" src="https://user-images.githubusercontent.com/46291510/67081017-53ecd680-f1d1-11e9-8a1c-5151b5fb95e5.png">
 <br>
+
 ***
 
 ### 記事詳細(コメント投稿/コメント削除機能)
 ![result](https://i.gyazo.com/c7d79c1b82cdd8547cde5e36a70c1f6b.gif)](https://gyazo.com/c7d79c1b82cdd8547cde5e36a70c1f6b)<br>
+
 ***
 
 
