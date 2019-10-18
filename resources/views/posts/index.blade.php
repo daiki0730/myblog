@@ -12,6 +12,7 @@
   <li>
     <a href="{{ action('PostsController@show', $post) }}">{{ $post->title }}</a>
     <a href="{{ action('PostsController@edit', $post) }}" class="edit">[Edit]</a>
+    <a href="#" class="del" data-id="{{ $post->id }}">[x]</a>
   </li>
   @empty
   <li>No posts yet</li>
