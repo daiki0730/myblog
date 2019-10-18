@@ -36,7 +36,7 @@ PHPで作るとどのような記述になるのだろうと<br>
 ***
 
 ### 記事詳細(コメント投稿/コメント削除機能)
-![result](https://i.gyazo.com/c7d79c1b82cdd8547cde5e36a70c1f6b.gif)](https://gyazo.com/c7d79c1b82cdd8547cde5e36a70c1f6b)<br>
+![result](https://i.gyazo.com/c7d79c1b82cdd8547cde5e36a70c1f6b.gif)<br>
 
 ***
 
