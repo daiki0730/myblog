@@ -36,4 +36,5 @@
     <input type="submit" value="Add Comment">
   </p>
 </form>
+<script src="/js/main.js"></script>
 @endsection
