@@ -1,7 +1,5 @@
 @extends('layouts.default')
 
-@section('title', 'New Post')
-
 @section('content')
 <h1>
   <a href="{{ url('/') }}" class="header-menu">Back</a>
