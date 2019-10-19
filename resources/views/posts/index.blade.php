@@ -1,10 +1,11 @@
 @extends('layouts.default')
 
 @section('content')
-<h1>
-  <a href="{{ url('/posts/create') }}" class="header-menu">New Post</a>
+
+<h2>
   Blog Posts
-</h1>
+</h2>
+
 <ul>
   @forelse ($posts as $post)
   <li>
@@ -23,3 +24,4 @@
 </ul>
 <script src="/js/main.js"></script>
 @endsection
+
