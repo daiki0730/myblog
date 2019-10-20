@@ -147,16 +147,16 @@ h2 {
   margin-left:15px;
 }
 
-.delete {
+.del {
   color: #696969;
   text-decoration: none;
 }
 
-.delete:hover {
+.del:hover {
   color: #ff7f50;
   text-decoration: none;
 }
 
-.comments {
+.del {
   padding-top: 5px;
 }

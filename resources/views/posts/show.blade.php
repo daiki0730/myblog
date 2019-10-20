@@ -23,14 +23,12 @@
   @forelse ($post->comments as $comment)
 
   <li>
-    <div class="comments">
-      {{ $comment->body }}
-      <a href="#" class="delete rounded-circle" data-id="{{ $comment->id }}">✗</a>
-      <form method="post" action="{{ action('CommentsController@destroy', [$post, $comment]) }}" id="form_{{ $comment->id }}">
-        {{ csrf_field() }}
-        {{ method_field('delete') }}
-      </form>
-    </div>
+    {{ $comment->body }}
+    <a href="#" class="del" data-id="{{ $comment->id }}">✗</a>
+    <form method="post" action="{{ action('CommentsController@destroy', [$post, $comment]) }}" id="form_{{ $comment->id }}">
+      {{ csrf_field() }}
+      {{ method_field('delete') }}
+    </form>
   </li>
 
   @empty
